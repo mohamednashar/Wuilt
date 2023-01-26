@@ -5,7 +5,7 @@
 body {
     direction: rtl;
 
-    font-family: "somar sans", sans-serif;
+    font-family: "somar sans", "Somarsans", sans-serif;
     color: #64748b;
     font-size: 18px;
     line-height: 1.4em;
@@ -140,7 +140,7 @@ html {
 }
 
 /******************************/
-/*First-Section*/
+/*Section 1-text*/
 /******************************/
 
 #mid-container {
@@ -216,7 +216,7 @@ html {
 }
 
 /******************************/
-/*Second-Section Pics*/
+/*Section 1-Pics*/
 /******************************/
 
 #pic-container {
@@ -250,7 +250,7 @@ html {
 
 }
 
-@keyframes moving {
+@keyframes moving {   /**Moving Down Up**/
 
     0% {
         transform: translateY(0);
@@ -275,7 +275,7 @@ html {
 
 }
 
-@keyframes moving_2 {
+@keyframes moving_2 {   /**Moving Up Down**/
 
     0% {
         transform: translateY(0);
@@ -299,7 +299,7 @@ html {
     animation: spin 50s linear infinite;
 }
 
-@keyframes spin {
+@keyframes spin {       /**Moving Counter Clockwise**/
     from {
         transform: rotate(0deg);
     }
@@ -318,7 +318,7 @@ html {
 
 }
 
-@keyframes spin_2 {
+@keyframes spin_2 {     /**Moving Clockwise**/
     from {
         transform: rotate(0deg);
     }
@@ -330,7 +330,7 @@ html {
 
 
 /******************************/
-/*Third-Section Stars*/
+/*Section 2*/
 /******************************/
 
 #star-container {
@@ -391,7 +391,7 @@ html {
 }
 
 /******************************/
-/*Fourth-Section UnderStars*/
+/*Section 3*/
 /******************************/
 
 #main-text {
@@ -515,7 +515,7 @@ html {
 }
 
 /******************************/
-/*Fifth-Section Grid*/
+/*Section 4 (Grids)*/
 /******************************/
 
 #grid-container {
@@ -545,7 +545,7 @@ html {
 }
 
 /******************************/
-/*Sixth-Section Slider*/
+/*Section 5 (Slider)*/
 /******************************/
 
 .slideshow-container {
@@ -622,20 +622,20 @@ html {
 
 }
 
-/* Position the "next button" to the right */
+
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
     direction: ltr;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover,
 .next:hover {
     background-color: #1fab9f;
 }
 
-/* Caption text */
+
 .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -674,7 +674,7 @@ html {
 
 @keyframes fade {
     from {
-        opacity: .4
+        opacity: .3
     }
 
     to {
@@ -683,7 +683,7 @@ html {
 }
 
 /******************************/
-/*Seventh-Section */
+/*Section 6 */
 /******************************/
 
 #container-2 {
@@ -717,7 +717,7 @@ html {
 }
 
 /******************************/
-/*8th-Section 2 buttons */
+/*2 Buttons*/
 /******************************/
 
 #two-buttons {
@@ -775,7 +775,7 @@ html {
 }
 
 /******************************/
-/*9th-Sections Square Grids */
+/*Section 7*/
 /******************************/
 
 #texth1 h1 {
@@ -843,7 +843,7 @@ html {
 }
 
 /******************************/
-/*10th-Sections FAQ */
+/*Section 8(FAQ) */
 /******************************/
 
 #faq {
@@ -931,7 +931,7 @@ html {
 }
 
 /******************************/
-/*11th-Sections Footer */
+/*Footer*/
 /******************************/
 
 #footer {
